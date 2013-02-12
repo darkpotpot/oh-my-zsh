@@ -1,1 +1,1 @@
-../../../git-flow-completion/git-flow-completion.zsh
+$HOME/git/git-flow-completion/git-flow-completion.zsh

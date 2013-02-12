@@ -5,8 +5,8 @@ bindkey "^R"                history-incremental-search-backward
 bindkey "^S"                history-incremental-search-forward 
 bindkey "5D"               backward-word
 bindkey "5C"               forward-word
-
-
+#bindkey "^I" menu-complete
+bindkey "\e[3~" delete-char #delete key for windows
 #bindkey -v "^[[3~" delete-char
 #bindkey -v "^[[5~" backward-word
 #bindkey -v "^[[6~" forward-word

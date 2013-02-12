@@ -8,7 +8,7 @@ if [ x"$HOSTNAME" = x ] ; then
         export HOSTNAME=$(hostname)
 fi
 
-export EMAIL="julien@gamr7.com"
+export EMAIL="julien@tagg-info.com"
 export FULLNAME="Julien POTIRON"
 
 ##export DEBEMAIL=$EMAIL
@@ -83,7 +83,6 @@ export LESS_TERMCAP_us=$'\E[01;32m'
 
 #export MPD_HOST=127.0.0.1
 #export MPD_PORT=6600
-export LD_LIBRARY_PATH=~/gamr7/code/app/boost/libs
 
 # better color in grep
 export GREP_COLOR='1;35'  #highlight color for grep
